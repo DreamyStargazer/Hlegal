@@ -427,9 +427,7 @@ body {
 }
 
 .advantages__list:hover {
-  background-image: linear-gradient(270deg, #F0145A, #EF8080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #F0145A;
 }
 
 .advantages__txt {
@@ -712,6 +710,7 @@ input.carousel__btn:nth-child(2) {
 }
 
 .partners__box {
+  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -770,4 +769,67 @@ input.carousel__btn:nth-child(2) {
 
 .partners__cell--color-12 {
   background-color: #000;
+}
+
+.last-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.last-section__bg {
+  background-color: #F5F5FA;
+  padding-top: 30px;
+}
+
+.last-section__cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.last-section__cards .publication-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.last-section__title {
+  margin-top: 10px;
+}
+
+.publication-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.publication-card__box {
+  max-width: 360px;
+}
+
+.publication-card__title {
+  color: #24A3FF;
+}
+
+.publication-card__title--position {
+  margin-top: 30px;
+}
+
+.publication-card__date {
+  color: #B3B3BA;
+}
+
+.publication-card__date--position {
+  margin-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 4px solid #E6E6F0;
+}
+
+.publication-card__txt {
+  color: #000;
+}
+
+.publication-card__txt--position {
+  margin-top: 15px;
 }

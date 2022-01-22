@@ -89,6 +89,7 @@
 		}
 	}
 	&__box {
+		margin-top: 30px;
 		display: flex;
 		flex-wrap: wrap;
 	}
@@ -136,5 +137,60 @@
 		}
 	}
 	&__object {
+	}
+}
+
+.last-section {
+	display: flex;
+	flex-direction: column;
+	&__bg {
+		background-color: $blue-grey;
+		padding-top: 30px;
+	}
+	&__cards {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 30px;
+		.publication-card {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+	&__title {
+		margin-top: 10px;
+	}
+}
+
+.publication-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: $white;
+	border-radius: 8px;
+	&__img {
+
+	}
+	&__box {
+		max-width: 360px;
+	}
+	&__title {
+		color: $blue;
+		&--position {
+			margin-top: 30px;
+		}
+	}
+	&__date {
+		color: $grey;
+		&--position {
+			margin-top: 15px;
+			padding-bottom: 15px;
+			border-bottom: 4px solid $bg-grey;
+		}
+	}
+	&__txt {
+		color: $black;
+		&--position {
+			margin-top: 15px;
+		}
 	}
 }
