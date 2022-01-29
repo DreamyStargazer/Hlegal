@@ -12,6 +12,7 @@ $gd-size: 8.33%;
 @for $i from 1 to $gd-col {
 	.col-#{$i} {
 		width: $gd-size * $i;
+		padding: 0 15px;
 		flex-grow: 1;
 	}
 }
@@ -58,7 +59,9 @@ $fs-12px: 12px;
 $fs-14px: 14px;
 $fs-16px: 16px;
 $fs-19px: 19px;
+$fs-20px: 20px;
 $fs-22px: 22px;
+$fs-24px: 24px;
 $fs-30px: 30px;
 $fs-38px: 38px;
 
@@ -66,8 +69,10 @@ $lh-15: 15px;
 $lh-17: 17px;
 $lh-20: 20px;
 $lh-22: 22px;
+$lh-24: 24px;
 $lh-26: 26px;
 $lh-27: 27px;
+$lh-29: 29px;
 $lh-30: 30px;
 $lh-37: 37px;
 $lh-46: 46px;

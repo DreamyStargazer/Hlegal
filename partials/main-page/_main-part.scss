@@ -16,8 +16,9 @@
 		background-image: url(../assets/images/main/aleksandr-photo.png);
 		background-size: contain;
 		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
 		border-radius: 12px 0 0 12px;
-		overflow-y: hidden;
 	}
 	.review {
 		display: flex;
@@ -145,11 +146,12 @@
 	flex-direction: column;
 	&__bg {
 		background-color: $blue-grey;
-		padding-top: 30px;
+		padding: 30px 0;
 	}
 	&__cards {
 		display: flex;
 		flex-wrap: wrap;
+		margin: 0 -15px;
 		margin-top: 30px;
 		.publication-card {
 			display: flex;
@@ -167,8 +169,25 @@
 	align-items: center;
 	background-color: $white;
 	border-radius: 8px;
-	&__img {
-
+	min-height: 420px;
+	padding-bottom: 15px;
+	box-sizing: content-box;
+	&__object {
+		min-height: 200px;
+		width: 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		border-radius: 8px 8px 0 0;
+		&--tablets {
+			background-image: url(../assets/images/main/tablets-in-hands.jpg);
+		}
+		&--gdpr {
+			background-image: url(../assets/images/main/GDPR.png);
+		}
+		&--team {
+			background-image: url(../assets/images/main/team.png);
+		}
 	}
 	&__box {
 		max-width: 360px;
@@ -177,12 +196,13 @@
 		color: $blue;
 		&--position {
 			margin-top: 30px;
+			padding: 0 10px;
 		}
 	}
 	&__date {
 		color: $grey;
 		&--position {
-			margin-top: 15px;
+			margin: 15px 10px 0;
 			padding-bottom: 15px;
 			border-bottom: 4px solid $bg-grey;
 		}
@@ -191,6 +211,7 @@
 		color: $black;
 		&--position {
 			margin-top: 15px;
+			padding: 0 10px;
 		}
 	}
 }
