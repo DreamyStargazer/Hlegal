@@ -476,11 +476,14 @@ body {
   margin: 0 60px;
 }
 
+.third-section .advantages__list {
+  color: #B3B3BA;
+}
+
 .advantages {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin-top: 30px;
 }
 
 .advantages__box {
@@ -488,15 +491,12 @@ body {
 }
 
 .advantages__list {
-  color: #B3B3BA;
+  margin-top: 30px;
+  text-align: end;
 }
 
 .advantages__list:hover {
   color: #F0145A;
-}
-
-.advantages__txt {
-  margin-top: 30px;
 }
 
 .advantages__list:nth-child(2) {

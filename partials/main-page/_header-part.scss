@@ -240,22 +240,27 @@
 	}
 }
 
+.third-section {
+	.advantages {
+		&__list {
+			color: $grey;
+		}
+	}
+}
+
 .advantages {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
-	margin-top: 30px;
 	&__box {
 		max-width: 581px;
 	}
 	&__list {
-		color: $grey;
-	}
-	&__list:hover {
-		color: $purple;
-	}
-	&__txt {
 		margin-top: 30px;
+		text-align: end;
+		&:hover {
+			color: $purple;
+		}
 	}
 }
 
