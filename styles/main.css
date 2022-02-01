@@ -284,7 +284,9 @@ body {
   grid-area: logo;
   width: 130px;
   height: 60px;
-  background-image: url(../../assets/images/header/hlegal-logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/images/header/hlegal-logo.svg);
 }
 
 .grid-header__contacts {
@@ -334,7 +336,7 @@ body {
 .grid-header__facebook-link {
   width: 24px;
   height: 24px;
-  background-image: url(../../assets/images/header/facebook_white.svg);
+  background-image: url(../assets/images/header/facebook_white.svg);
   background-position: center;
 }
 
@@ -402,7 +404,7 @@ body {
 
 .mobile-navigation .mob-nav-close__label {
   display: block;
-  background-image: url(../../assets/images/header/close_btn_cross.svg);
+  background-image: url(../assets/images/header/close_btn_cross.svg);
   background-position: center;
   height: 32px;
   width: 32px;
@@ -1256,9 +1258,7 @@ body {
 
 .grid-header__logo {
   grid-area: logo;
-  width: 302px;
-  height: 60px;
-  background-image: url(../../assets/images/service-page/hlegal-service-logo.svg);
+  background-image: url(../assets/images/header/hlegal-logo.svg);
 }
 
 .grid-header__contacts {
@@ -1308,7 +1308,7 @@ body {
 .grid-header__facebook-link {
   width: 24px;
   height: 24px;
-  background-image: url(../../assets/images/header/facebook_white.svg);
+  background-image: url(../assets/images/header/facebook_white.svg);
   background-position: center;
 }
 
@@ -1358,7 +1358,7 @@ body {
   height: 32px;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../../assets/images/header/nav-list_hamburger.svg);
+  background-image: url(../assets/images/header/nav-list_hamburger.svg);
 }
 
 .big-card {
@@ -2229,8 +2229,6 @@ body {
     background-image: url(../assets/images/header/hlegal_logo_mobile.svg);
     background-position: center;
     background-repeat: no-repeat;
-    width: 70px;
-    height: 32px;
   }
   .grid-header__logo--serv {
     margin-left: -15px;

@@ -70,7 +70,9 @@
 		grid-area: logo;
 		width: 130px;
 		height: 60px;
-		background-image: url(../../assets/images/header/hlegal-logo.svg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-image: url(../assets/images/header/hlegal-logo.svg);
 	}
 	&__contacts {
 		grid-area: contacts;
@@ -112,7 +114,7 @@
 	&__facebook-link {
 		width: 24px;
 		height: 24px;
-		background-image: url(../../assets/images/header/facebook_white.svg);
+		background-image: url(../assets/images/header/facebook_white.svg);
 		background-position: center;
 	}
 	&__navigation {
@@ -170,7 +172,7 @@
 		display: none;
 		&__label {
 			display: block;
-			background-image: url(../../assets/images/header/close_btn_cross.svg);
+			background-image: url(../assets/images/header/close_btn_cross.svg);
 			background-position: center;
 			height: 32px;
 			width: 32px;
