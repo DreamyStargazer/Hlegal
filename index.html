@@ -23,6 +23,29 @@
 	<header class="section-gradient">
 		<div class="section-gradient__shadow section-gradient__shadow--1"></div>
 		<div class="section-gradient__shadow section-gradient__shadow--2"></div>
+		<input id="burger-btn"
+			class="burger-btn"
+			type="checkbox">
+		<div class="mobile-navigation">
+			<input id="mob-nav-close"
+				class="mob-nav-close"
+				type="checkbox">
+			<label for="mob-nav-close"
+				class="mob-nav-close__label"
+				for=""></label>
+			<ul class="mob-nav-close__list">
+				<li><a class="mob-nav-close__item fw-bold"
+						href="#">about us</a></li>
+				<li><a class="mob-nav-close__item fw-bold"
+						href="./pages/service-page.html">послуги</a></li>
+				<li><a class="mob-nav-close__item fw-bold"
+						href="#">команда</a></li>
+				<li><a class="mob-nav-close__item fw-bold"
+						href="#">публікації</a></li>
+				<li><a class="mob-nav-close__item fw-bold"
+						href="./pages/contact-form.html">контакти</a></li>
+			</ul>
+		</div>
 		<div class="main-wrap">
 			<div class="main-wrap-bg">
 				<object class="main-wrap-bg__object"
@@ -75,34 +98,33 @@
 						</div>
 						<div class="grid-header__navigation">
 							<ul class="nav-list">
-								<li><a href="#"
-										class="nav-list--position txt-regular-sm fw-bold">about us</a>
+								<li class="nav-list--position"><a href="#"
+										class="txt-regular-sm fw-bold">about us</a>
 								</li>
-								<li><a href="#"
-										class="nav-list--position txt-regular-sm fw-bold">services</a>
+								<li class="nav-list--position"><a href="./pages/service-page.html"
+										class="txt-regular-sm fw-bold">services</a>
 								</li>
-								<li><a href="#"
-										class="nav-list--position txt-regular-sm fw-bold">team</a></li>
-								<li><a href="#"
-										class="nav-list--position txt-regular-sm fw-bold">publications</a>
+								<li class="nav-list--position"><a href="#"
+										class="txt-regular-sm fw-bold">team</a></li>
+								<li class="nav-list--position"><a href="#"
+										class="txt-regular-sm fw-bold">publications</a>
 								</li>
-								<li><a href="./pages/contact-form.html"
-										class="nav-list--position txt-regular-sm fw-bold">contact</a>
+								<li class="nav-list--position"><a href="./pages/contact-form.html"
+										class="txt-regular-sm fw-bold">contact</a>
 								</li>
 							</ul>
 						</div>
 						<div class="grid-header__mobile-navigation">
-							<input id="burger-btn"
-								class="burger-btn"
-								type="checkbox">
+
 							<label class="burger-btn__label"
 								for="burger-btn"></label>
 						</div>
 					</div>
-					<h3 class="second-section txt-large fw-bold">
+					<h3 class="second-section txt-large fw-bold tb-sm-mr">
 						you legal solutions provider
 					</h3>
-					<div class="circle-btn"></div>
+					<a href="#services"
+						class="circle-btn"></a>
 				</div>
 			</div>
 		</div>
@@ -143,8 +165,9 @@
 			</div>
 		</div>
 		<div class="services services--position container">
-			<div class="services__title container">
-				<a class="txt-sm txt-link fw-bold"
+			<div class="services__title">
+				<a id="services"
+					class="txt-sm txt-link fw-bold"
 					href="#">Services<object data="./assets/images/main/blue-arrow.svg"
 						type=""></object></a>
 				<h4 class="services__subheading txt-large fw-bold txt-grad-purple">
@@ -152,7 +175,7 @@
 				</h4>
 			</div>
 			<div class="services__cards">
-				<div class="card col-4 col-sm-12">
+				<div class="card col-4 col-sm-6 col-xsm-12">
 					<object data="./assets/images/main/basket_symbol.svg"
 						type=""></object>
 					<h5 class="card__title card__title--position txt-bold fw-bold">
@@ -163,7 +186,7 @@
 						from doing business. But there is not much work to do to hire an in-house lawyer.
 					</p>
 				</div>
-				<div class="card col-4 col-sm-12">
+				<div class="card col-4 col-sm-6 col-xsm-12">
 					<object data="./assets/images/main/diplomat-sybmol.svg"
 						type=""></object>
 					<h5 class="card__title card__title--position txt-bold fw-bold">
@@ -177,7 +200,7 @@
 						technology in Ukraine.
 					</p>
 				</div>
-				<div class="card col-4 col-sm-12">
+				<div class="card col-4 col-sm-6 col-xsm-12">
 					<object data="./assets/images/main/structure-symbol.svg"
 						type=""></object>
 					<h5 class="card__title card__title--position txt-bold fw-bold">
@@ -188,7 +211,7 @@
 						daily life of your company.
 					</p>
 				</div>
-				<div class="card col-4 col-sm-12">
+				<div class="card col-4 col-sm-6 col-xsm-12">
 					<object data="./assets/images/main/team-symbol.svg"
 						type=""></object>
 					<h5 class="card__title card__title--position txt-bold fw-bold">
@@ -199,7 +222,7 @@
 						it at the coffee maker and just talk about current affairs instead of waiting for update status.
 					</p>
 				</div>
-				<div class="card col-4 col-sm-12">
+				<div class="card col-4 col-sm-6 col-xsm-12">
 					<object data="./assets/images/main/shield-symbol.svg"
 						type=""></object>
 					<h5 class="card__title card__title--position txt-bold fw-bold">
@@ -211,7 +234,7 @@
 						lawyer.
 					</p>
 				</div>
-				<div class="card col-4 col-sm-12">
+				<div class="card col-4 col-sm-6 col-xsm-12">
 					<object data="./assets/images/main/judjment-symbol.svg"
 						type=""></object>
 					<h5 class="card__title card__title--position txt-bold fw-bold">
@@ -228,8 +251,8 @@
 	<main class="main">
 		<div class="reviews container">
 			<div class="review-card">
-				<div class="review-card__img col-4"></div>
-				<div class="review col-8">
+				<div class="review-card__img col-tbhd-6 col-4"></div>
+				<div class="review  col-tbhd-6 col-8">
 					<a class="txt-sm txt-link fw-bold txt-link--position"
 						href="#">команда<object data="./assets/images/main/blue-arrow.svg"
 							type=""></object></a>
@@ -272,62 +295,62 @@
 				They already trust us
 			</h3>
 			<div class="partners__box">
-				<div class="partners__cell partners__cell--color-1 col-3 col-sm-12">
+				<div class="partners__cell partners__cell--color-1 col-3 col-sm-4 col-xsm-12">
 					<object class="partners__object"
 						data="./assets/images/main/partners/hillel-logo.svg"
 						type=""></object>
 				</div>
-				<div class="partners__cell partners__cell--color-2 col-3 col-sm-12">
+				<div class="partners__cell partners__cell--color-2 col-3 col-sm-4 col-xsm-12">
 					<object class="partners__object"
 						data="./assets/images/main/partners/wanna_biz-logo.svg"
 						type=""></object>
 				</div>
-				<div class="partners__cell partners__cell--color-3 col-3 col-sm-12">
+				<div class="partners__cell partners__cell--color-3 col-3 col-sm-4 col-xsm-12">
 					<object class="partners__object"
 						data="./assets/images/main/partners/tapgerine-logo.svg"
 						type=""></object>
 				</div>
-				<div class="partners__cell partners__cell--color-4 col-3 col-sm-12">
+				<div class="partners__cell partners__cell--color-4 col-3 col-sm-4 col-xsm-12">
 					<object class="partners__object"
 						data="./assets/images/main/partners/3d_look-logo.svg"
 						type=""></object>
 				</div>
-				<div class="partners__cell partners__cell--color-5 col-3 col-sm-12">
+				<div class="partners__cell partners__cell--color-5 col-3 col-sm-4 col-xsm-12">
 					<object class="partners__object"
 						data="./assets/images/main/partners/orange_gear-logo.svg"
 						type=""></object>
 				</div>
-				<div class="partners__cell partners__cell--color-6 col-3 col-sm-12">
+				<div class="partners__cell partners__cell--color-6 col-3 col-sm-4 col-xsm-12">
 					<object class="partners__object"
 						data="./assets/images/main/partners/adtelligent-logo.svg"
 						type=""></object>
 				</div>
-				<div class="partners__cell partners__cell--color-7 col-3 col-sm-12">
+				<div class="partners__cell partners__cell--color-7 col-3 col-sm-4 col-xsm-12">
 					<object class="partners__object"
 						data="./assets/images/main/partners/clickky-logo.svg"
 						type=""></object>
 				</div>
-				<div class="partners__cell partners__cell--color-8 col-3 col-sm-12">
+				<div class="partners__cell partners__cell--color-8 col-3 col-sm-4 col-xsm-12">
 					<object class="partners__object"
 						data="./assets/images/main/partners/ecolease-logo.svg"
 						type=""></object>
 				</div>
-				<div class="partners__cell partners__cell--color-9 col-3 col-sm-12">
+				<div class="partners__cell partners__cell--color-9 col-3 col-sm-4 col-xsm-12">
 					<object class="partners__object"
 						data="./assets/images/main/partners/infra_tek-logo.svg"
 						type=""></object>
 				</div>
-				<div class="partners__cell partners__cell--color-10 col-3 col-sm-12">
+				<div class="partners__cell partners__cell--color-10 col-3 col-sm-4 col-xsm-12">
 					<object class="partners__object"
 						data="./assets/images/main/partners/city_park-logo.svg"
 						type=""></object>
 				</div>
-				<div class="partners__cell partners__cell--color-11 col-3 col-sm-12">
+				<div class="partners__cell partners__cell--color-11 col-3 col-sm-4 col-xsm-12">
 					<object class="partners__object"
 						data="./assets/images/main/partners/art_print-logo.svg"
 						type=""></object>
 				</div>
-				<div class="partners__cell partners__cell--color-12 col-3 col-sm-12">
+				<div class="partners__cell partners__cell--color-12 col-3 col-sm-4 col-xsm-12">
 					<object class="partners__object"
 						data="./assets/images/main/partners/altimate_card-logo.svg"
 						type=""></object>
@@ -343,7 +366,7 @@
 					We have something to tell
 				</h3>
 				<div class="last-section__cards">
-					<div class="col-4 col-sm-12">
+					<div class="col-4 col-sm-6 col-sm-6--pad col-xsm-12">
 						<div class="publication-card">
 							<div class="publication-card__object publication-card__object--tablets"></div>
 							<div class="publication-card__box">
@@ -361,7 +384,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4 col-sm-12">
+					<div class="col-4 col-sm-6 col-sm-6--pad col-xsm-12">
 						<div class="publication-card">
 							<div class="publication-card__object publication-card__object--gdpr"></div>
 							<div class="publication-card__box">
@@ -378,7 +401,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4 col-sm-12">
+					<div class="col-4 col-sm-12 col-xsm-12">
 						<div class="publication-card">
 							<div class="publication-card__object publication-card__object--team"></div>
 							<div class="publication-card__box">
